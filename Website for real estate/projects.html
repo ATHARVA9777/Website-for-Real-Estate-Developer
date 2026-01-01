@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore upcoming and newly launched real estate projects by REALUX across prime locations in India.">
+    <title>Upcoming Projects | REALUX Real Estate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">REA<span>LUX</span></a>
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fas fa-bars"></i></label>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="expertise.html">Expertise</a>
+                <a href="projects.html" style="color: var(--secondary-color);">Projects</a>
+                <a href="index.html#contact" class="btn-nav">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="subpage-hero">
+        <div class="container">
+            <h1 style="color: var(--white); font-size: 3.5rem;">Luxury Projects Portfolio</h1>
+            <p style="color: rgba(255,255,255,0.8); font-size: 1.2rem;">Discover the future of living with our curated
+                list of upcoming properties.</p>
+        </div>
+    </section>
+
+    <!-- Filters placeholder (CSS only) -->
+    <section id="portfolio" style="padding: 4rem 0;">
+        <div class="container">
+            <div style="display: flex; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap; justify-content: center;">
+                <span
+                    style="padding: 0.5rem 1.5rem; background: var(--secondary-color); color: var(--primary-color); border-radius: 20px; font-weight: 700; cursor: pointer;">All
+                    Projects</span>
+                <span
+                    style="padding: 0.5rem 1.5rem; background: var(--bg-light); border: 1px solid #ddd; border-radius: 20px; font-weight: 600; cursor: pointer;">Residential</span>
+                <span
+                    style="padding: 0.5rem 1.5rem; background: var(--bg-light); border: 1px solid #ddd; border-radius: 20px; font-weight: 600; cursor: pointer;">Commercial</span>
+                <span
+                    style="padding: 0.5rem 1.5rem; background: var(--bg-light); border: 1px solid #ddd; border-radius: 20px; font-weight: 600; cursor: pointer;">Sustainable</span>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.png" alt="Arboretum Prime Residences">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-status">Pre-Launch</span>
+                        <h3 style="margin-top: 0.5rem;">Arboretum Prime</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</p>
+                        <p>Luxury apartments with panoramic sea views and vertical gardens.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; border-top: 1px solid #eee; padding-top: 1rem; margin-top: 1rem; font-size: 0.85rem; font-weight: 600;">
+                            <span><i class="fas fa-bed"></i> 2, 3 & 4 BHK</span>
+                            <span><i class="fas fa-calendar-check"></i> Possession 2027</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.png" alt="Skyline Vista Minimalist Living">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-status">Under Construction</span>
+                        <h3 style="margin-top: 0.5rem;">Skyline Vista</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Bangalore, Karnataka</p>
+                        <p>Minimalist urban dwellings designed for efficiency and style.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; border-top: 1px solid #eee; padding-top: 1rem; margin-top: 1rem; font-size: 0.85rem; font-weight: 600;">
+                            <span><i class="fas fa-bed"></i> 1 & 2 BHK</span>
+                            <span><i class="fas fa-calendar-check"></i> Possession 2026</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.png" alt="EcoSuburban Sustainable Home">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-status">Newly Launched</span>
+                        <h3 style="margin-top: 0.5rem;">EcoSuburban</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra</p>
+                        <p>Sustainable suburban retreats with integrated smart-home tech.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; border-top: 1px solid #eee; padding-top: 1rem; margin-top: 1rem; font-size: 0.85rem; font-weight: 600;">
+                            <span><i class="fas fa-bed"></i> Villas & Row Houses</span>
+                            <span><i class="fas fa-calendar-check"></i> Ready to Move</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 (Duplicate for variety) -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/hero.png" alt="Royal Apex Luxury Towers">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-status" style="background: var(--primary-color); color: var(--white);">Sold
+                            Out</span>
+                        <h3 style="margin-top: 0.5rem;">Royal Apex Towers</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Gurgaon, Haryana</p>
+                        <p>A landmark development featuring ultra-luxury penthouses.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; border-top: 1px solid #eee; padding-top: 1rem; margin-top: 1rem; font-size: 0.85rem; font-weight: 600;">
+                            <span><i class="fas fa-bed"></i> 4 & 5 BHK</span>
+                            <span><i class="fas fa-calendar-check"></i> Possession Completed</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: var(--bg-light); text-align: center; padding: 5rem 0;">
+        <div class="container">
+            <h2 style="margin-bottom: 1.5rem;">Want a Specific Location?</h2>
+            <p style="margin-bottom: 2.5rem; max-width: 600px; margin-left: auto; margin-right: auto;">Our team is
+                constantly expanding into new territories. Tell us where you're looking for your next home.</p>
+            <a href="index.html#contact" class="btn">Inquire Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo logo">REA<span>LUX</span></div>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="expertise.html">Expertise</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <p class="copyright">&copy; 2026 REALUX Real Estate India. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
